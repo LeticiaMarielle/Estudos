@@ -17,7 +17,7 @@ namespace Application.Dominio.Teste
         public void SetUp()
         {
             funcionario = new Funcionario();
-            funcionario.Salario = 5500;
+           // funcionario.Salario =3500;
             funcionario.turno = ETurno.manha;
         }
 
@@ -34,8 +34,23 @@ namespace Application.Dominio.Teste
         }
 
         [Test]
-        public void TestarCalculoImpostoRenda() {
+        public void TestarCalculoImpostoRendaSalarioMenorIgual2500() {
+            funcionario.Salario =2500;
             Assert.That(funcionario.Salario, Is.EqualTo(2250));
+        }
+
+        [Test]
+        public void TestarCalculoImpostoRendaSalarioMenorIgual3500()
+        {
+            funcionario.Salario = 3500;
+            Assert.That(funcionario.Salario, Is.EqualTo(2800));
+        }
+
+        [Test]
+        public void TestarCalculoImpostoRendaSalarioMaiorIgual5000()
+        {
+            funcionario.Salario = 5000;
+            Assert.That(funcionario.Salario, Is.EqualTo(3750));
         }
 
     }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Application.Dominio;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,9 +13,13 @@ namespace Dominio
         manha = 1, tarde = 2, noite = 3
     }
 
-    public class Funcionario
+    public class Funcionario:Pessoa
     {
         private double _salario; //atributo privado, identificar com _
+
+        public Funcionario()
+        {
+        }
 
         public double Salario //Proprerties
         {
@@ -45,6 +50,11 @@ namespace Dominio
                 return salario -= salario * 0.25;
             }
             else return salario;
+        }
+
+        public void RegistrarPonto()
+        {
+
         }
 
     }
