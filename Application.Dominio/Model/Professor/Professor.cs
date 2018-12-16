@@ -1,4 +1,4 @@
-﻿using Application.Dominio.Model.Aluno;
+﻿using Application.Dominio.Model.AlunoDisciplina;
 using Dominio;
 using System;
 using System.Collections.Generic;
@@ -10,14 +10,16 @@ namespace Application.Dominio
     {
         public string Registro;
         public string Formacao;
+       
 
 
-        public AlunoDisciplina LancarNota(int codigoAluno, int codigoDisciplina , float nota )
+        public void LancarNota(Aluno aluno, Disciplina disciplina , float nota )
         {
-            return new AlunoDisciplina(codigoAluno, codigoDisciplina, nota);
+            disciplina.Alunos.Find(lnq => lnq.Aluno.Matricula == aluno.Matricula ).Nota = nota;
+           
         }
 
-        public AlunoDisciplina LancarFaltas(int codigoAluno, int codigoDisciplina, int quantidadeFaltas)
+        public AlunoDisciplina LancarFaltas(Aluno codigoAluno, int codigoDisciplina, int quantidadeFaltas)
         {
             return new AlunoDisciplina(codigoAluno, codigoDisciplina, quantidadeFaltas);
         }

@@ -1,0 +1,9 @@
+C:\Users\flavi\Documents\Desenvolvimento\Inovacao\Estudos\Application.Dominio\bin\Debug\netstandard2.0\Application.Dominio.deps.json
+C:\Users\flavi\Documents\Desenvolvimento\Inovacao\Estudos\Application.Dominio\bin\Debug\netstandard2.0\Application.Dominio.dll
+C:\Users\flavi\Documents\Desenvolvimento\Inovacao\Estudos\Application.Dominio\bin\Debug\netstandard2.0\Application.Dominio.pdb
+C:\Users\flavi\Documents\Desenvolvimento\Inovacao\Estudos\Application.Dominio\obj\Debug\netstandard2.0\Application.Dominio.csprojAssemblyReference.cache
+C:\Users\flavi\Documents\Desenvolvimento\Inovacao\Estudos\Application.Dominio\obj\Debug\netstandard2.0\Application.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\flavi\Documents\Desenvolvimento\Inovacao\Estudos\Application.Dominio\obj\Debug\netstandard2.0\Application.Dominio.AssemblyInfoInputs.cache
+C:\Users\flavi\Documents\Desenvolvimento\Inovacao\Estudos\Application.Dominio\obj\Debug\netstandard2.0\Application.Dominio.AssemblyInfo.cs
+C:\Users\flavi\Documents\Desenvolvimento\Inovacao\Estudos\Application.Dominio\obj\Debug\netstandard2.0\Application.Dominio.dll
+C:\Users\flavi\Documents\Desenvolvimento\Inovacao\Estudos\Application.Dominio\obj\Debug\netstandard2.0\Application.Dominio.pdb

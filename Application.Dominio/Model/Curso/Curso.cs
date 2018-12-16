@@ -9,7 +9,6 @@ namespace Application.Dominio
         public string Descricao { get; set; }
         public List<Disciplina> Disciplinas { get; set; }
         public int CargaHorariaTotal { get; set; }
-        public List<Aluno> Alunos { get; set; }
-
+        
     }
 }

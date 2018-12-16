@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Application.Dominio.Model.AlunoDisciplina;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
@@ -9,6 +10,8 @@ namespace Application.Dominio
         public string Descricao;
         public int Codigo;
         public int CargaHoraria;
-        public List<Professor> professores;
+        public Professor Professor { get; set; }
+        public List<AlunoDisciplina> Alunos { get; set; }
+
     }
 }
