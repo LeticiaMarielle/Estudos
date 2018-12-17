@@ -7,3 +7,12 @@ C:\Users\flavi\Documents\Desenvolvimento\Inovacao\Estudos\Application.Dominio\ob
 C:\Users\flavi\Documents\Desenvolvimento\Inovacao\Estudos\Application.Dominio\obj\Debug\netstandard2.0\Application.Dominio.AssemblyInfo.cs
 C:\Users\flavi\Documents\Desenvolvimento\Inovacao\Estudos\Application.Dominio\obj\Debug\netstandard2.0\Application.Dominio.dll
 C:\Users\flavi\Documents\Desenvolvimento\Inovacao\Estudos\Application.Dominio\obj\Debug\netstandard2.0\Application.Dominio.pdb
+C:\Users\NOVA\source\repos\EstudosLeticia\Application.Dominio\bin\Debug\netstandard2.0\Application.Dominio.deps.json
+C:\Users\NOVA\source\repos\EstudosLeticia\Application.Dominio\bin\Debug\netstandard2.0\Application.Dominio.dll
+C:\Users\NOVA\source\repos\EstudosLeticia\Application.Dominio\bin\Debug\netstandard2.0\Application.Dominio.pdb
+C:\Users\NOVA\source\repos\EstudosLeticia\Application.Dominio\obj\Debug\netstandard2.0\Application.Dominio.csprojResolveAssemblyReference.cache
+C:\Users\NOVA\source\repos\EstudosLeticia\Application.Dominio\obj\Debug\netstandard2.0\Application.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\NOVA\source\repos\EstudosLeticia\Application.Dominio\obj\Debug\netstandard2.0\Application.Dominio.AssemblyInfoInputs.cache
+C:\Users\NOVA\source\repos\EstudosLeticia\Application.Dominio\obj\Debug\netstandard2.0\Application.Dominio.AssemblyInfo.cs
+C:\Users\NOVA\source\repos\EstudosLeticia\Application.Dominio\obj\Debug\netstandard2.0\Application.Dominio.dll
+C:\Users\NOVA\source\repos\EstudosLeticia\Application.Dominio\obj\Debug\netstandard2.0\Application.Dominio.pdb

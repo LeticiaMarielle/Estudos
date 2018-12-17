@@ -8,14 +8,12 @@ namespace Application.Dominio
 {
     public class Professor:Funcionario
     {
-        public string Registro;
-        public string Formacao;
-       
-
+        public string Registro { get; set; }
+        public string Formacao { get; set; }
 
         public void LancarNota(Aluno aluno, Disciplina disciplina , float nota )
         {
-            disciplina.Alunos.Find(lnq => lnq.Aluno.Matricula == aluno.Matricula ).Nota = nota;
+            disciplina.Alunos.Find(lnq => lnq.Aluno.Matricula == aluno.Matricula).Nota = nota; /*pesquisando por um aluno na lsita de alunos pela matricula, e recebendo a nota informada*/
            
         }
 

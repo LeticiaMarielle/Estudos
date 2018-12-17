@@ -4,14 +4,14 @@ using System.Text;
 
 namespace Application.Dominio
 {
-    class Endereco
+    public class Endereco
     {
-        string Rua;
-        string Numero;
-        string Bairro;
-        string Cidade;
-        string Estado;
-        string CEP;
+        public string Rua { get; set; }
+        public string Numero { get; set; }
+        public string Bairro { get; set; }
+        public string Cidade { get; set; }
+        public string Estado { get; set; }
+        public string CEP { get; set; }
 
     }
 }
