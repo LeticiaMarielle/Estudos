@@ -58,6 +58,10 @@
       <Project>{39e06a40-8f2c-4aaa-a988-b6289a24946d}</Project>
       <Name>Application.Dominio</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Servicos\Servicos.csproj">
+      <Project>{808088ba-d9a7-4190-8ad0-5a64c7d0748d}</Project>
+      <Name>Servicos</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

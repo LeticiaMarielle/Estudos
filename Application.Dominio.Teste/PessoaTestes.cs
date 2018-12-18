@@ -3,7 +3,10 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Servicos.Helpers;
+
 
 namespace Application.Dominio.Teste
 {
@@ -16,7 +19,7 @@ namespace Application.Dominio.Teste
         {
             pessoa = new Pessoa();
             pessoa.Nome = "Leticia";
-            pessoa.CPF = "111";
+            pessoa.CPF = "111.222.333-89";
             pessoa.Endereco.Bairro = "Centro";
             pessoa.Endereco.CEP = "35680-277";
             pessoa.Endereco.Cidade = "Divinopolis";
@@ -28,6 +31,20 @@ namespace Application.Dominio.Teste
         public void TestarSePessoaValida() {
             Assert.NotNull(pessoa.Nome);
             Assert.NotNull(pessoa.CPF);
+        }
+
+        [Test]
+        public void TestarCPFValido()
+        {
+            Assert.AreEqual(pessoa.CPF.Length,14);
+            /**  var regex = new Regex(@"(\d{3}\.){2}\d{3}\-\d{2}");
+              var resultado = regex.IsMatch(pessoa.CPF);
+              Assert.IsTrue(resultado);**/
+            var resultado = DocumentosHelper.ValidarCPF(pessoa.CPF);
+
+            Assert.IsTrue(resultado);
+
+       
         }
     }
 }
